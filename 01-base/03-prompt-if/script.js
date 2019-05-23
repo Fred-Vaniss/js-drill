@@ -11,4 +11,11 @@
 
 (() => {
     // your code here
+    var answer = prompt("Est-ce que tu veux du gâteau?")
+
+    if (answer == "oui"){
+        alert("Bien! Voila un morceau!")
+    } else {
+        alert("Du gâteau, ça ne se refuse pas!")
+    }
 })();

@@ -11,4 +11,7 @@
 
 (() => {
     // your code here
+    let name = prompt("Entrez votre prénom")
+
+    alert(`Bonjour, ${name}!`)
 })();

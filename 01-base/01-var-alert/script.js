@@ -11,4 +11,6 @@
 
 (() => {
     // your code here
+    let msg = `Hello, World!`
+    alert(msg);
 })();

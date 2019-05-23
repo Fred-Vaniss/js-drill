@@ -11,4 +11,14 @@
 
 (() => {
     // your code here
+    let confirm = false;
+
+    do{
+        let age = prompt("Entrez votre age")
+        let sex = prompt("Etes vous un homme ou une femme?")
+        let city = prompt("Tu es de quel ville?")
+
+        let confirm = prompt(`Tu as ${age} ans, tu es un ${sex} et tu habite à ${city}`)        
+    } while (confirm != "oui");
+    
 })();
