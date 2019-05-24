@@ -10,7 +10,7 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [x]  01-var-alert
   - [x]  02-var-prompt
   - [x]  03-prompt-if
-  - [ ]  04-asv-confirm
+  - [x]  04-asv-confirm
 - 02-maths
   - [ ] 01-calculator-one
   - [ ] 02-calculator-two
