@@ -14,5 +14,17 @@
 
     document.getElementById("run").addEventListener("click", () => {
         // your code here
+        let numbers = document.getElementById("numbers").value.split(",").map(function(item){
+            return parseInt(item)
+        }).sort(function(a,b){
+            return a - b
+        })
+
+        let sorted = ""
+        for (const i of numbers) {
+            sorted += `${i}, `
+        }
+        
+        window.alert(`Voici les nombres triés du plus petit au plus grand:\n${sorted}`)
     });
 })();

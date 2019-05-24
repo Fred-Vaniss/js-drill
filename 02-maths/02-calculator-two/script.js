@@ -14,6 +14,31 @@
 
     const performOperation = operation => {
         // perform the operation
+        let values = getValues()
+        let result
+        let operator
+        switch (operation) {
+            case "addition":
+                result = values[0]+values[1]
+                operator = "+"
+                break;
+            case "substraction":
+                result = values[0]-values[1]
+                operator = "-"
+                break;
+            case "multiplication":
+                result = values[0]*values[1]
+                operator = "*"
+                break;
+            case "division":
+                result = values[0]/values[1]
+                operator = "/"
+                break;
+        
+            default:
+                break;
+        }
+        window.alert(`${values[0]} ${operator} ${values[1]} = ${result}`)
     };
 
     Array.from(document.querySelectorAll("button.operator")).forEach($btn =>
@@ -22,4 +47,15 @@
             () => (performOperation($btn.id), false),
         ),
     );
+
+    function getValues() {
+        let opOne = document.getElementById("op-one").value;
+        let opTwo = document.getElementById("op-two").value;
+
+        opOne = parseInt(opOne);
+        opTwo = parseInt(opTwo);
+    
+        return [opOne, opTwo]
+    }
+
 })();

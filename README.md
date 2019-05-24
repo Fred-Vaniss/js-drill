@@ -12,12 +12,12 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [x]  03-prompt-if
   - [x]  04-asv-confirm
 - 02-maths
-  - [ ] 01-calculator-one
-  - [ ] 02-calculator-two
-  - [ ] 03-even-squage
-  - [ ] 04-sort-numbers
-  - [ ] 05-factorial
-  - [ ] 06-fizzbuzz
+  - [x] 01-calculator-one
+  - [x] 02-calculator-two
+  - [x] 03-even-squage
+  - [x] 04-sort-numbers
+  - [x] 05-factorial
+  - [x] 06-fizzbuzz
 - 03-colors
   - [ ] 01-change-bcg-one
   - [ ] 02-change-bcg-two
