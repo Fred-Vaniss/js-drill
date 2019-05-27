@@ -29,9 +29,65 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [ ] 04-local-date
   - [ ] 05-get-spooky-friday
 - 05-arrays
+  - [ ] 01-get-element  
+  - [ ] 02-manipulate-array
+  - [ ] 03-walk-one
+  - [ ] 04-walk-two
+  - [ ] 05-walk-three
+  - [ ] 06-find-in-array
+  - [ ] 07-filter-array
+  - [ ] 08-array-includes
+  - [ ] 09-rand-array-stats
+  - [ ] 10-reduce-array
+  - [ ] 11-dedupe-array
+  - [ ] 12-manipulate-test
+  - [ ] 13-find-in-set
+  - [ ] 14-bird-names-generator
 - 06-objects
+  - [ ] 01-generate-object
+  - [ ] 02-assign-properties
+  - [ ] 03-keys-values
+  - [ ] 04-from-entries
 - 07-classes
+  - [ ] 01-instances
+  - [ ] 02-methods
+  - [ ] 03-inheritance
+  - [ ] 04-getter-setter
 - 08-dom
+  - [ ] 01-select-one
+  - [ ] 02-select-two
+  - [ ] 03-select-three
+  - [ ] 04-attr-create
+  - [ ] 05-hover-image
+  - [ ] 06-mini-carousel
+  - [ ] 07-generate-table-one
+  - [ ] 08-generatoe-table-two
+  - [ ] 09-match-password-one
+  - [ ] 10-match-password-two
+  - [ ] 11-change-event-input-one
+  - [ ] 12-change-event-input-two
 - 09-misc
+  - [ ] 01-waving-text
+  - [ ] 02-typewriter-effect
+  - [ ] 03-worst-ui-one
+  - [ ] 04-worst-ui-two
+  - [ ] 05-worst-ui-three
+  - [ ] 06-guess-number
+  - [ ] 07-storage-clicker
 - 10-asynchronous
+  - [ ] 00-example
+  - [ ] 01-get-posts
+  - [ ] 02-get-comments
+  - [ ] 03-handling-errors
+  - [ ] 04-promise-get-posts
+  - [ ] 05-promise-get-comments
+  - [ ] 06-promise-handling-errors
+  - [ ] 07-async-get-posts
+  - [ ] 08-async-get-comments
+  - [ ] 09-async-handling-errors
 - 11-fetch
+  - [ ] 01-list-to-console
+  - [ ] 02-list-to-template
+  - [ ] 03-details
+  - [ ] 04-add
+  - [ ] 05-delete
