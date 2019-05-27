@@ -33,5 +33,50 @@ let input = document.getElementById("color").value
  body.style.backgroundColor = input
 ```
 
-## 3) Changer le background-color avec une couleur aléatoire à chaque click
+## 3) Changer le background-color avec une couleur aléatoire à chaque clique
+Ici, j'ai fait en sorte que cela puisse générer un code hexadécimale netre #000000 et #ffffff
 
+Quand je clique sur le boutton, il va créer six variable qui appeleront chacun la fonction `generateNumber()`, va créer une chaine de caractère avec # suivi des six variables et va appliquer ce code exadécimale dans la classe CSS
+
+```javascript
+document.getElementById("run").addEventListener("click", () => {
+    
+    let n1 = generateNumber();
+    let n2 = generateNumber();
+    let n3 = generateNumber();
+    let n4 = generateNumber();
+    let n5 = generateNumber();
+    let n6 = generateNumber();
+    let hex = `#${n1}${n2}${n3}${n4}${n5}${n6}`
+    document.getElementsByTagName("body")[0].style.backgroundColor = 
+})
+```
+
+Cette variable `generateNumber()` va générer un chiffre aléatoire entre 0 et 15. Si ce chiffre est en dessous de 10, il va juste le transformer en *string* et retourner cette valeur, si il est au dessus de 10, il va transformer en lettre de `a` à `f`
+
+```javascript
+let generateNumber = () => {
+    number = Math.round(Math.random()*15)
+    if (number < 10){
+        return number.toString()
+    } else {
+        switch (number) {
+            case 10:
+                return "a"
+            case 11:
+                return "b"
+            case 12:
+                return "c"
+            case 13:
+                return "d"
+            case 14:
+                return "e"
+            case 15:
+                return "f"
+        
+            default:
+                break;
+        }
+    }
+}
+```
