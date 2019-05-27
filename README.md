@@ -23,10 +23,10 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [x] 02-change-bcg-two
   - [x] 03-change-bcg-three
 - 04-dates
-  - [ ] 01-title-by-hour-one
-  - [ ] 02 title-by-hour-two
+  - [x] 01-title-by-hour-one
+  - [x] 02 title-by-hour-two
   - [ ] 03-age-by-select
-  - [ ] 04-local-date
+  - [x] 04-local-date
   - [ ] 05-get-spooky-friday
 - 05-arrays
   - [ ] 01-get-element  
