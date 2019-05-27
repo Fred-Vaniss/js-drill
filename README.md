@@ -19,9 +19,9 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [x] 05-factorial
   - [x] 06-fizzbuzz
 - 03-colors
-  - [ ] 01-change-bcg-one
-  - [ ] 02-change-bcg-two
-  - [ ] 03-change-bcg-three
+  - [x] 01-change-bcg-one
+  - [x] 02-change-bcg-two
+  - [x] 03-change-bcg-three
 - 04-dates
   - [ ] 01-title-by-hour-one
   - [ ] 02 title-by-hour-two

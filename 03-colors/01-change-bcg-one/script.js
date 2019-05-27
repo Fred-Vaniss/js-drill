@@ -11,4 +11,15 @@
 
 (() => {
     // your code here
+
+    Array.from(document.getElementsByTagName("button")).forEach(btn => {
+        btn.addEventListener("click", () => changeColor(btn.id),false)
+    });
+
+    let body = document.getElementsByTagName("body")[0]
+
+    let changeColor = (id) => {
+        body.style.backgroundColor = id
+    }
+
 })();
