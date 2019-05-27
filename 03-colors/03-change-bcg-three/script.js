@@ -36,22 +36,16 @@
             switch (number) {
                 case 10:
                     return "a"
-                    break;
                 case 11:
                     return "b"
-                    break;
                 case 12:
                     return "c"
-                    break;
                 case 13:
                     return "d"
-                    break;
                 case 14:
                     return "e"
-                    break;
                 case 15:
                     return "f"
-                    break;
             
                 default:
                     break;
