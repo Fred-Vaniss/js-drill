@@ -28,4 +28,12 @@
     ];
 
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+        let deduped = []
+        deduped = fruits.filter((el,i,arr) => {
+            return arr.indexOf(el) === i;
+        })
+    
+        console.table(deduped)
+    })
 })();

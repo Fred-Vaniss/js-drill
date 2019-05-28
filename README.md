@@ -35,12 +35,12 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [x] 04-walk-two
   - [x] 05-walk-three
   - [x] 06-find-in-array
-  - [ ] 07-filter-array
-  - [ ] 08-array-includes
-  - [ ] 09-rand-array-stats
-  - [ ] 10-reduce-array
-  - [ ] 11-dedupe-array
-  - [ ] 12-manipulate-test
+  - [x] 07-filter-array
+  - [x] 08-array-includes
+  - [x] 09-rand-array-stats
+  - [x] 10-reduce-array
+  - [x] 11-dedupe-array
+  - [x] 12-manipulate-set
   - [ ] 13-find-in-set
   - [ ] 14-bird-names-generator
 - 06-objects
