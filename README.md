@@ -29,12 +29,12 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [x] 04-local-date
   - [x] 05-get-spooky-friday
 - 05-arrays
-  - [ ] 01-get-element  
-  - [ ] 02-manipulate-array
-  - [ ] 03-walk-one
-  - [ ] 04-walk-two
-  - [ ] 05-walk-three
-  - [ ] 06-find-in-array
+  - [x] 01-get-element  
+  - [x] 02-manipulate-array
+  - [x] 03-walk-one
+  - [x] 04-walk-two
+  - [x] 05-walk-three
+  - [x] 06-find-in-array
   - [ ] 07-filter-array
   - [ ] 08-array-includes
   - [ ] 09-rand-array-stats

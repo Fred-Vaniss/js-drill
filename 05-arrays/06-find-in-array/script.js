@@ -89,4 +89,13 @@
     ];
 
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+        let i = 0
+        people.forEach(e => {
+            if (e.lastname.indexOf("Dupont") == 0 && e.firstname.indexOf("Jean") == 0){
+                console.log(`Index: ${i}`)
+            }
+            i++
+        });
+    })
 })();
