@@ -25,9 +25,9 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
 - 04-dates
   - [x] 01-title-by-hour-one
   - [x] 02 title-by-hour-two
-  - [ ] 03-age-by-select
+  - [x] 03-age-by-select
   - [x] 04-local-date
-  - [ ] 05-get-spooky-friday
+  - [x] 05-get-spooky-friday
 - 05-arrays
   - [ ] 01-get-element  
   - [ ] 02-manipulate-array

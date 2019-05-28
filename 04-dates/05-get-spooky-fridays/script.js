@@ -11,4 +11,33 @@
 
 (() => {
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+        let year = document.getElementById("year").value;
+        let monthList = ["Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Août","Septembre","Octobre","Novembre","Décembre"];
+        let spooky = [];
+    
+        for(m = 1; m < 12; m++) {
+            let date = new Date(year,m,13);
+            let day = date.getDay();
+            
+            if (day == 5){
+                spooky.push(monthList[m])
+            }
+        }
+
+        let section = document.getElementsByClassName("material")[0]
+        let p = document.createElement("p")
+        p.id = "target"
+
+        for (const i of spooky) {
+            p.innerHTML += `${i} `
+        }
+
+        section.appendChild(p)
+    
+        console.table(spooky)
+    })
+
+
+    // console.log(date.getDate());
 })();
