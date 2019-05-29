@@ -13,4 +13,17 @@
     const keys = ["name", "species", "age", "gender", "color"];
     const values = ["Skitty", "cat", 9, "female", "tabby"];
     // your code here
+    
+    let objectsArray = []
+    for(i = 0; i < keys.length; i++) {
+        let objectProperty = []
+        objectProperty.push(keys[i])
+        objectProperty.push(values[i])
+
+        objectsArray.push(objectProperty)
+    }
+
+    let object = Object.fromEntries(objectsArray)
+
+    console.log(object)
 })();

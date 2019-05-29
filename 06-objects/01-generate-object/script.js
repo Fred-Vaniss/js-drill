@@ -11,4 +11,14 @@
 
 (() => {
     // your code here
+
+    let object = {
+        lastname: "Van Isschot",
+        firstname: "Frédérick",
+        age: 16,
+        city: "Courcelles",
+        country: "Belgium"
+    }
+
+    console.log(object)
 })();

@@ -19,4 +19,11 @@
         status: "married",
     };
     // your code here
+    for (const key in person) {
+        console.log (key)
+    }
+    console.log("==================")
+    for (const key in person) {
+        console.log (person[key])
+    }
 })();

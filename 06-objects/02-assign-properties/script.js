@@ -27,4 +27,17 @@
         user: null,
     };
     // your code here
+    
+    document.getElementById("run").addEventListener("click", () => {
+        console.table(computers)
+
+        computers.forEach(computer => {
+            for (const key in defaultProps) {
+                if (computer[key] == undefined){
+                    computer[key] = defaultProps[key]
+                }
+            }
+        });
+        console.table(computers)
+    })
 })();

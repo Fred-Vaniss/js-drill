@@ -44,10 +44,10 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [x] 13-find-in-set
   - [x] 14-bird-names-generator
 - 06-objects
-  - [ ] 01-generate-object
-  - [ ] 02-assign-properties
-  - [ ] 03-keys-values
-  - [ ] 04-from-entries
+  - [x] 01-generate-object
+  - [x] 02-assign-properties
+  - [x] 03-keys-values
+  - [x] 04-from-entries
 - 07-classes
   - [ ] 01-instances
   - [ ] 02-methods
