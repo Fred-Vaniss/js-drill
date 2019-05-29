@@ -39,4 +39,17 @@
     ]);
 
     // your code here
+    document.getElementById("run").addEventListener("click", () => {        
+        let selBird = birds[Math.floor(Math.random()*12)]
+    
+        let article = selBird.fem ? "une" : "un"
+    
+    
+        let items = Array.from(adjectives)
+        let selAdj = items[Math.floor(Math.random()*11)]
+        
+    
+        console.log(`${article} ${selBird.name} ${selAdj}`)
+    })
+
 })();

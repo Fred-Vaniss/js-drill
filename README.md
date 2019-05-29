@@ -41,8 +41,8 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [x] 10-reduce-array
   - [x] 11-dedupe-array
   - [x] 12-manipulate-set
-  - [ ] 13-find-in-set
-  - [ ] 14-bird-names-generator
+  - [x] 13-find-in-set
+  - [x] 14-bird-names-generator
 - 06-objects
   - [ ] 01-generate-object
   - [ ] 02-assign-properties
