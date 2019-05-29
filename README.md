@@ -61,7 +61,7 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [ ] 05-hover-image
   - [ ] 06-mini-carousel
   - [ ] 07-generate-table-one
-  - [ ] 08-generatoe-table-two
+  - [x] 08-generate-table-two
   - [ ] 09-match-password-one
   - [ ] 10-match-password-two
   - [ ] 11-change-event-input-one
