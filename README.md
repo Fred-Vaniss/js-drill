@@ -49,8 +49,8 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [x] 03-keys-values
   - [x] 04-from-entries
 - 07-classes
-  - [ ] 01-instances
-  - [ ] 02-methods
+  - [x] 01-instances
+  - [x] 02-methods
   - [ ] 03-inheritance
   - [ ] 04-getter-setter
 - 08-dom

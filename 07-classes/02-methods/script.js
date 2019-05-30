@@ -11,4 +11,18 @@
 
 (() => {
     // your code here
+    class Person {
+        constructor(firstN, lastN){
+            this.firstName = firstN
+            this.lastName = lastN
+        }
+        sayHello(){
+            console.log(`Hello ${this.firstName} ${this.lastName}`)
+        }
+    }
+
+    document.getElementById("run").addEventListener("click", () => {
+        let fred = new Person("Frédérick","Vaniss")
+        fred.sayHello()
+    })
 })();
