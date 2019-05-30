@@ -51,8 +51,8 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
 - 07-classes
   - [x] 01-instances
   - [x] 02-methods
-  - [ ] 03-inheritance
-  - [ ] 04-getter-setter
+  - [x] 03-inheritance
+  - [x] 04-getter-setter
 - 08-dom
   - [ ] 01-select-one
   - [ ] 02-select-two
