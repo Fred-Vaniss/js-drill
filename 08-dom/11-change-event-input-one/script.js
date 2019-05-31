@@ -11,4 +11,15 @@
 
 (() => {
     // your code here
+    let input = document.getElementById("pass-one")
+    let counter = document.getElementById("counter")
+
+    input.addEventListener("input", (e) => {
+        input.value = input.value.substring(0,10)
+        let length = input.value.length
+
+        counter.innerHTML = `${length}/10`
+        console.log(length);
+
+    })
 })();

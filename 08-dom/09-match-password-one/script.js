@@ -11,4 +11,18 @@
 
 (() => {
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+        let pass = document.getElementById("pass-one")
+        let confPass = document.getElementById("pass-two")
+
+        console.log(pass.value)
+
+        if (pass.value != confPass.value){
+            pass.style.borderColor = "red"
+            confPass.style.borderColor = "red"
+        } else {
+            pass.style.borderColor = "green"
+            confPass.style.borderColor = "green"
+        }
+    })
 })();

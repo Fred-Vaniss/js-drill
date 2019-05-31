@@ -11,4 +11,17 @@
 
 (() => {
     // your code here
+    let img = document.getElementsByTagName("img")[0]
+
+    let data = img.getAttribute("data-hover")
+    let src = img.getAttribute("src")
+    console.log(data)
+
+    img.addEventListener("mouseover", () => {
+        img.setAttribute("src", data)
+    })
+
+    img.addEventListener("mouseleave", () => {
+        img.setAttribute("src", src)
+    })
 })();

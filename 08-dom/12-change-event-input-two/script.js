@@ -11,4 +11,27 @@
 
 (() => {
     // your code here
+    let pass = document.getElementById("pass-one")
+    let valid = document.getElementById("validity")
+
+    pass.addEventListener("input", () => {
+        if(pass.value.length >= 8){
+            let digits = 0
+            for (const i of pass.value) {
+                if(Number.isInteger(parseInt(i))){
+                    digits++
+                }
+            }
+            if(digits >= 2){
+                valid.innerHTML = "ok"
+            } else {
+                valid.innerHTML = "Pas ok"
+            }
+        } else {
+            valid.innerHTML = "Pas ok"
+        }
+    })
+
+    // console.log(Number.isInteger(parseInt(str[3])))
+    
 })();

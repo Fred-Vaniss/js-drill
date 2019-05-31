@@ -11,4 +11,5 @@
 
 (() => {
     // your code here
+    document.getElementsByClassName("target")[0].innerHTML = "owned"
 })();

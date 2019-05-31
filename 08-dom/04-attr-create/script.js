@@ -11,4 +11,15 @@
 
 (() => {
     // your code here
+    let source = document.getElementById("source")
+    let data = source.getAttribute("data-image")
+
+    let target = document.getElementById("target")
+
+    let img = document.createElement("img")
+    img.setAttribute("src", data)
+
+    target.appendChild(img)
+
+    source.remove()
 })();

@@ -54,18 +54,18 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [x] 03-inheritance
   - [x] 04-getter-setter
 - 08-dom
-  - [ ] 01-select-one
-  - [ ] 02-select-two
-  - [ ] 03-select-three
-  - [ ] 04-attr-create
-  - [ ] 05-hover-image
-  - [ ] 06-mini-carousel
-  - [ ] 07-generate-table-one
+  - [x] 01-select-one
+  - [x] 02-select-two
+  - [x] 03-select-three
+  - [x] 04-attr-create
+  - [x] 05-hover-image
+  - [x] 06-mini-carousel
+  - [x] 07-generate-table-one
   - [x] 08-generate-table-two
-  - [ ] 09-match-password-one
-  - [ ] 10-match-password-two
-  - [ ] 11-change-event-input-one
-  - [ ] 12-change-event-input-two
+  - [x] 09-match-password-one
+  - [x] 10-match-password-two
+  - [x] 11-change-event-input-one
+  - [x] 12-change-event-input-two
 - 09-misc
   - [ ] 01-waving-text
   - [ ] 02-typewriter-effect

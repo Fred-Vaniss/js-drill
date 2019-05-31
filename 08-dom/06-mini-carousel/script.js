@@ -19,4 +19,13 @@
     ];
 
     // your code here
+    let curImg = 0
+    let img = document.getElementsByTagName("img")[0]
+
+    document.getElementById("next").addEventListener("click", () => {
+        curImg++
+        if (curImg > 4) curImg = 0
+        img.setAttribute("src", gallery[curImg])
+        console.log(curImg)
+    })
 })();

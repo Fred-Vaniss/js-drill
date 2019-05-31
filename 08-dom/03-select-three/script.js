@@ -11,4 +11,9 @@
 
 (() => {
     // your code here
+    let targets = document.getElementsByClassName("target")
+
+    for (const i of targets) {
+        i.innerHTML = "owned"
+    }
 })();
