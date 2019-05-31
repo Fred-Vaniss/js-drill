@@ -75,14 +75,14 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [ ] 06-guess-number
   - [ ] 07-storage-clicker
 - 10-asynchronous
-  - [ ] 00-example
-  - [ ] 01-get-posts
-  - [ ] 02-get-comments
-  - [ ] 03-handling-errors
-  - [ ] 04-promise-get-posts
-  - [ ] 05-promise-get-comments
-  - [ ] 06-promise-handling-errors
-  - [ ] 07-async-get-posts
+  - [x] 00-example
+  - [x] 01-get-posts
+  - [x] 02-get-comments
+  - [x] 03-handling-errors
+  - [x] 04-promise-get-posts
+  - [x] 05-promise-get-comments
+  - [x] 06-promise-handling-errors
+  - [x] 07-async-get-posts
   - [ ] 08-async-get-comments
   - [ ] 09-async-handling-errors
 - 11-fetch

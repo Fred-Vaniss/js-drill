@@ -11,4 +11,14 @@
 
 (() => {
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+        window.lib.getPosts().then((content) => {
+            console.table(content)
+            for(i = 0; i < content.length; i++) {
+                window.lib.getComments(i).then((content) => {
+                    console.table(content)
+                })
+            }
+        })
+    })
 })();

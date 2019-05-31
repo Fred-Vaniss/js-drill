@@ -11,4 +11,12 @@
 
 (() => {
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+        window.lib.getPersons(function callback(err,content){
+            console.table(content)
+            console.error(err)
+        })
+    })
+
+    
 })();

@@ -11,4 +11,14 @@
 
 (() => {
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+        window.lib.getPosts(function callback(err,content){
+            console.table(content)
+            for(i = 0; i < content.length; i++) {
+                window.lib.getComments(i, function callback(err, content){
+                    console.table(content)
+                })
+            }
+        })
+    })
 })();

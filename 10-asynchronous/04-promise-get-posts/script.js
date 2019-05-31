@@ -11,4 +11,6 @@
 
 (() => {
     // your code here
+    window.lib.getPosts().then((message) => {console.log(message)})
 })();
+
