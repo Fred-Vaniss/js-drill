@@ -11,4 +11,12 @@
 
 (() => {
     // your code here
+    document.getElementById("run").addEventListener("click", async () => {
+        try {
+            let response = await window.lib.getPersons()
+            console.table(response)
+        } catch (err) {
+            console.error(err)
+        }
+    })
 })();

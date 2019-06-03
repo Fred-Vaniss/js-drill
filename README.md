@@ -83,8 +83,8 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [x] 05-promise-get-comments
   - [x] 06-promise-handling-errors
   - [x] 07-async-get-posts
-  - [ ] 08-async-get-comments
-  - [ ] 09-async-handling-errors
+  - [x] 08-async-get-comments
+  - [x] 09-async-handling-errors
 - 11-fetch
   - [ ] 01-list-to-console
   - [ ] 02-list-to-template

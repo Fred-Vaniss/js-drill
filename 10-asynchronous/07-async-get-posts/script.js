@@ -12,7 +12,13 @@
 (() => {
     // your code here
     document.getElementById("run").addEventListener("click", async () => {
-        await window.lib.getPosts().then((message) => console.table(message))
+        let response = await window.lib.getPosts()
+        console.log("Response received")
+        try{
+            console.table(response)
+        } catch (err) {
+            console.error(err)
+        }
         
     })
 })();
