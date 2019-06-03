@@ -86,8 +86,8 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [x] 08-async-get-comments
   - [x] 09-async-handling-errors
 - 11-fetch
-  - [ ] 01-list-to-console
-  - [ ] 02-list-to-template
-  - [ ] 03-details
+  - [x] 01-list-to-console
+  - [x] 02-list-to-template
+  - [x] 03-details
   - [ ] 04-add
   - [ ] 05-delete
