@@ -11,4 +11,17 @@
 
 (() => {
     // your code here
+    document.getElementById("run").addEventListener("click", async () => {
+        let selectId = document.getElementById("hero-id").value
+
+        try {
+            let request = await fetch(`http://localhost:3000/heroes/${selectId}`,{
+                method: 'DELETE',
+                headers: {"Content-Type": "application/json"}
+            })
+            console.log(request)
+        } catch (err) {
+            console.error(err)
+        }
+    })
 })();

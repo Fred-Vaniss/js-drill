@@ -19,7 +19,7 @@
         try{
             let response = await fetch("http://localhost:3000/heroes")
             let data = await response.json()
-
+            
             let chosenId = document.getElementById("hero-id").value
             chosenId = parseInt(chosenId)
 
@@ -28,7 +28,8 @@
             } else if (isNaN(chosenId)){
                 throw new Error("L'ID entrée n'est pas un nombre")
             }
-
+            
+            target.innerHTML = ''
             const findHero = data.find((data) => data.id === chosenId)
             
             let hero = document.importNode(item, true)
@@ -48,8 +49,7 @@
             target.appendChild(hero)
 
         } catch (err) {
-            console.error(err)
-            window.alert(err)
+            target.innerHTML = `<h4 style='color: red;'>${err}</h4>`
         }
     })
 })();
