@@ -68,7 +68,7 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [x] 12-change-event-input-two
 - 09-misc
   - [ ] 01-waving-text
-  - [ ] 02-typewriter-effect
+  - [x] 02-typewriter-effect
   - [ ] 03-worst-ui-one
   - [ ] 04-worst-ui-two
   - [ ] 05-worst-ui-three
@@ -89,5 +89,5 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
   - [x] 01-list-to-console
   - [x] 02-list-to-template
   - [x] 03-details
-  - [ ] 04-add
-  - [ ] 05-delete
+  - [x] 04-add
+  - [x] 05-delete
