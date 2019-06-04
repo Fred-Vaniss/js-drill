@@ -11,4 +11,9 @@
 
 (() => {
     // your code here
+    document.getElementById("slider").addEventListener("input", () => {
+        let value = document.getElementById("slider").value
+
+        document.getElementById("target").innerHTML = `+${value}`
+    })
 })();

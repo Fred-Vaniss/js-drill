@@ -69,11 +69,11 @@ J'ai également créé une branche ou sera les exercices originaux inchangés.
 - 09-misc
   - [ ] 01-waving-text
   - [x] 02-typewriter-effect
-  - [ ] 03-worst-ui-one
-  - [ ] 04-worst-ui-two
-  - [ ] 05-worst-ui-three
-  - [ ] 06-guess-number
-  - [ ] 07-storage-clicker
+  - [x] 03-worst-ui-one
+  - [x] 04-worst-ui-two
+  - [x] 05-worst-ui-three
+  - [x] 06-guess-number
+  - [x] 07-storage-clicker
 - 10-asynchronous
   - [x] 00-example
   - [x] 01-get-posts

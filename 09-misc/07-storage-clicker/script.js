@@ -11,4 +11,24 @@
 
 (() => {
     // your code here
+    let target = document.getElementById("target")
+    let nbr = localStorage.getItem("beCodeClicker");
+
+    if (!nbr){
+        console.warn("Aucune donnée local trouvée, création d'une nouvelle")
+        nbr = 0
+        localStorage.setItem("beCodeClicker", nbr)
+    } else {
+        console.log(`Donnée local chargée: ${nbr}`)
+    }
+
+    target.innerHTML = nbr
+
+    document.getElementById("increment").addEventListener("click", () => {
+        nbr++
+
+        target.innerHTML = nbr
+
+        localStorage.setItem("beCodeClicker", nbr)
+    })
 })();
