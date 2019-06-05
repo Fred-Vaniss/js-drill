@@ -18,22 +18,14 @@
         for(i = 0; i < 10; i++) {
             let nbr = Math.round(Math.random()*99+1)
             table.push(nbr)
+            document.getElementById(`n-${i+1}`).innerHTML = nbr
         }
-    
-        let min = Math.min.apply(null, table);
-        let max = Math.max.apply(null, table);
+
+        document.getElementById("min").innerHTML = Math.min(...table);
+        document.getElementById("max").innerHTML = Math.max(...table);
+
         let sum = table.reduce((a,b) => a + b);
-        let avg = sum/table.length
-        
-        // Affichage des résultats
-        for(i = 0; i < 10; i++) {
-            let cell = document.getElementById(`n-${i+1}`)
-            cell.innerHTML = table[i]
-        }
-    
-        document.getElementById("min").innerHTML = min
-        document.getElementById("max").innerHTML = max
         document.getElementById("sum").innerHTML = sum
-        document.getElementById("average").innerHTML = avg
+        document.getElementById("average").innerHTML = sum/table.length
     })
 })();
